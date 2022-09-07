@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_imovel_informations",
+  "info": {
+    "displayName": "Informations",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Area": {
+      "type": "string",
+      "default": " m²",
+      "required": true,
+      "maxLength": 266
+    },
+    "N_Bathrooms": {
+      "type": "integer",
+      "default": 1,
+      "unique": false,
+      "max": 20,
+      "required": true
+    },
+    "N_Bedrooms": {
+      "type": "integer",
+      "default": 1,
+      "required": true,
+      "max": 20
+    },
+    "N_Garage": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 20
+    }
+  }
+}

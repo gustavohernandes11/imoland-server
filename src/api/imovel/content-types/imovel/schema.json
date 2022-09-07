@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imoveis",
+  "info": {
+    "singularName": "imovel",
+    "pluralName": "imoveis",
+    "displayName": "Imoveis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Immobile_post": {
+      "displayName": "Publicação de imóvel",
+      "type": "component",
+      "repeatable": false,
+      "component": "imovel.publicacao-de-imovel",
+      "pluginOptions": {}
+    },
+    "Gallery": {
+      "type": "dynamiczone",
+      "components": [
+        "imovel.images"
+      ],
+      "required": true,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string",
+      "default": "default-slug-to-change",
+      "unique": true,
+      "required": true
+    }
+  }
+}

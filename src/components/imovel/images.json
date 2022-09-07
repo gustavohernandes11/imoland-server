@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_imovel_images",
+  "info": {
+    "displayName": "Images",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Cape": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

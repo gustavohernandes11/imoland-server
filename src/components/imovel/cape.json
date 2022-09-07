@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_imovel_capes",
+  "info": {
+    "displayName": "Cape"
+  },
+  "options": {},
+  "attributes": {
+    "Cape": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
