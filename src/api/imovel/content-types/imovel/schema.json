@@ -25,13 +25,18 @@
         "imovel.images"
       ],
       "required": true,
-      "pluginOptions": {}
+      "pluginOptions": {},
+      "max": 1,
+      "min": 1
     },
     "slug": {
       "type": "string",
       "default": "default-slug-to-change",
       "unique": true,
-      "required": true
+      "required": true,
+      "minLength": 3,
+      "maxLength": 266,
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
     }
   }
 }

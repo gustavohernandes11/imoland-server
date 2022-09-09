@@ -15,7 +15,7 @@
     },
     "Price": {
       "type": "string",
-      "default": "R$ ",
+      "default": "€ ",
       "required": true,
       "maxLength": 100,
       "minLength": 3
@@ -47,16 +47,6 @@
       ],
       "required": true
     },
-    "Concelho": {
-      "type": "string",
-      "required": true,
-      "maxLength": 100
-    },
-    "District": {
-      "type": "string",
-      "maxLength": 266,
-      "required": true
-    },
     "Informations": {
       "displayName": "Informations",
       "type": "component",
@@ -79,6 +69,68 @@
     "Emphasize": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "District": {
+      "type": "enumeration",
+      "enum": [
+        "Aveiro",
+        "Braga",
+        "Evora",
+        "Faro",
+        "Horta",
+        "Leiria",
+        "Lisboa",
+        "Porto",
+        "Santarem",
+        "Setúbal",
+        "Viana do Castelo",
+        "Viseu"
+      ],
+      "required": true
+    },
+    "Concelho": {
+      "type": "enumeration",
+      "enum": [
+        "Abrantes",
+        "Agualva-Cacém",
+        "Albergaria-a-Velha",
+        "Alenquer",
+        "Alvaiázere",
+        "Amarante",
+        "Arouca",
+        "Estremoz",
+        "Faro",
+        "Gaia",
+        "Gondomar",
+        "Horta",
+        "Lousada",
+        "Maia",
+        "Marco de Canaveses",
+        "Matosinhos",
+        "Montijo",
+        "Olhão",
+        "Oliveira de Azemeis",
+        "Ovar",
+        "Paços de Ferreira",
+        "Paredes",
+        "Penafiel",
+        "Ponte da Barca",
+        "Porto",
+        "Povoa de Varzim",
+        "Santo Tirso",
+        "Setubal",
+        "Sintra",
+        "Tabuaço",
+        "Tondela",
+        "Valongo",
+        "Vila do Conde",
+        "Vila Franca de xira",
+        "Vila Nova de Famalicão",
+        "Vila Nova de Gala",
+        "Vila Verde",
+        "Viseu"
+      ],
       "required": true
     }
   }
